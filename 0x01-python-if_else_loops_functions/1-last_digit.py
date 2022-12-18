@@ -11,7 +11,7 @@ if number > 0:
         print('Last digit of', number, 'is', lastdigit1, 'and is less than 6 and not 0')
 else:
     lastdigit = number % -10
-    if lastdigit > -5:
+    if lastdigit > -5 && lastdigit != 0:
         print('Last digit of', number, 'is', lastdigit, 'and is greater than 5')
     elif lastdigit == 0:
         print('last digit of', number, 'is', lastdigit, 'and is 0')
