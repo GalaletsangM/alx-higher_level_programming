@@ -9,5 +9,5 @@ if __name__ == "__main__":
     else:
         while counter <= length:
             s = s + int(sys.argv[counter])
-            counter + 1
+            counter = counter + 1
         print('{:d}'.format(s))
